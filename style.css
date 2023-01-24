@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+html {
+    background-color: RGB(232, 232, 232);
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#title {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30pt;
+}
+
+#wrapperFirstPage {
+    display: flex;
+    flex-direction: row;
+}
+
+.wrapperMap {
+    /*position: fixed;*/
+    text-align:center;
+    width:50%;
+    top:130px;
+}
+
+#map {
+    position: static;
+    width: 700px;
+    height: 720px;
+}
+
+.sidoName {
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px;
+    
+}
+
+.divWrapperTable {
+    position: absolute;
+    width:50%;
+    text-align: center;
+    right:20px;
+}
+
+#clickSidoNum {
+    color: RGB(232, 232, 232);
+}
+
+table {
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+.titleHead td {
+    font-weight: bold;
+    font-size: 20pt;
+    padding-top: 10px;
+}
+
+
+.tableHead td {
+    border: solid #000 2px;
+    background-color:antiquewhite;
+    padding: 5px;
+    font-weight: bold;
+}
+
+tbody tr td{
+    border: solid #000 2px;
+    padding: 3px;
+    cursor: pointer;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <link rel="stylesheet" href="./style.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>코로나19전국현황</title>
+</head>
+
+<body>
+    <h2 id="title"> 2022년 9월 코로나 19 시도 감염 현황</h2>
+    <div id="wrapperFirstPage">
+        <div class="wrapperMap">
+            <img id="map" src="map.jpg" alt="대한민국 행정구역 지도">
+            <div id='divSidoName'>
+
+            </div>
+        </div>
+        <div class="divWrapperTable" id="divWrapperTable">
+            <table class="wrapperTable" id="wrapperTable">
+                <thead>
+                    <tr class="titleHead">
+                        <td id="tableTitle" colspan="4">
+                            코로나 19 지역별 감염 현황</td>
+                    </tr>
+                    <tr>
+                        <td colspan="4" style="text-align: right">
+                            (2022-09-01 ~ 2022-09-30)</td>
+                    </tr>
+                    <tr class="tableHead">
+                        <td>지역</td>
+                        <td>누적확진자</td>
+                        <td>누적사망자</td>
+                    </tr>
+                </thead>
+            </table>
+            <label id="clickSidoNum"></label>
+        </div>
+    </div>
+</body>
+
+<script type="module" src="firstPageContents.js">
+</script>
+
+</html>
